@@ -10,6 +10,24 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <main>
+        <section className='relative'>
+          <div>
+            <Image
+              src="/media/home_img_1.jpg"
+              width="1920"
+              height="800"
+              alt="Landing page display image"
+            />
+          </div>
+          <div className='absolute p-3 left-12 bottom-5 h-1/2 w-1/2 rounded-lg bg-gray-800 opacity-80 text-white sm:left-20 sm:h-1/3 sm:w-2/5 md:bottom-10 md:left-24 lg:hover:border-4 lg:hover:border-red-500 lg:hover:scale-105 transition-all ease-in-out lg:bottom-14 lg:left-32 xl:left-40 xl:bottom-16'>
+              <h1 className='uppercase font-semibold sm:text-xl sm:mb-1 md:text-2xl md:my-2 lg:text-4xl lg:my-4 xl:text-5xl'>
+                Lancet Architects
+              </h1>
+              <p className='text-sm sm:text-base lg:text-xl xl:text-2xl'>
+                The place where dreams are crafted
+              </p>
+          </div>
+        </section>
         <section className='bg-gray-100 py-5 md:py-12 lg:py-14'>
           <div className='bg-gray-400 rounded-lg w-3/4 mx-auto py-5 md:flex lg:hover:scale-105 transition-all ease-in-out lg:rounded-2xl lg:py-1'>
             <div className='md:w-3/5 md:my-auto lg:w-7/12'>
