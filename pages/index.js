@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
       <main>
         <section className='bg-gray-100 py-5 md:py-12 lg:py-14'>
-          <div className='bg-gray-400 rounded-lg w-3/4 mx-auto py-5 md:flex lg:hover:scale-105 transition-all ease-in-out lg:rounded-2xl lg:py-3'>
+          <div className='bg-gray-400 rounded-lg w-3/4 mx-auto py-5 md:flex lg:hover:scale-105 transition-all ease-in-out lg:rounded-2xl lg:py-1'>
             <div className='md:w-3/5 md:my-auto lg:w-7/12'>
               <h2 className='text-center uppercase font-semibold mb-3 sm:text-xl sm:font-bold md:text-left md:px-10 lg:text-2xl xl:text-3xl'>Thriving creativity</h2>
               <p className='text-center text-sm px-3 sm:px-10 md:text-left lg:text-base lg:pr-14 xl:text-lg'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto doloribus voluptatem quia. Tempore qui iure alias delectus, dignissimos maiores</p>
@@ -27,7 +27,7 @@ export default function Home() {
           </div>
         </section>
         <section className='bg-gray-100 py-5 md:py-12 lg:py-14'>
-          <div className='bg-gray-400 rounded-lg w-3/4 mx-auto py-5 md:flex md:flex-row-reverse lg:hover:scale-105 transition-all ease-in-out lg:rounded-2xl lg:py-3'>
+          <div className='bg-gray-400 rounded-lg w-3/4 mx-auto py-5 md:flex md:flex-row-reverse lg:hover:scale-105 transition-all ease-in-out lg:rounded-2xl lg:py-1'>
             <div className='md:w-3/5 md:my-auto lg:w-7/12'>
               <h2 className='text-center uppercase font-semibold mb-3 sm:text-xl sm:font-bold md:text-right md:px-10 lg:text-2xl xl:text-3xl'>Crafting Dreams</h2>
               <p className='text-center text-sm px-3 sm:px-10 md:text-right lg:text-base lg:pl-14 xl:text-lg'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto doloribus voluptatem quia. Tempore qui iure alias delectus, dignissimos maiores</p>
