@@ -20,12 +20,12 @@ export default function Home() {
             />
           </div>
           <div className='absolute p-3 left-12 bottom-5 h-1/2 w-1/2 rounded-lg bg-gray-800 opacity-80 text-white sm:left-20 sm:h-1/3 sm:w-2/5 md:bottom-10 md:left-24 lg:hover:border-4 lg:hover:border-red-500 lg:hover:scale-105 transition-all ease-in-out lg:bottom-14 lg:left-32 xl:left-40 xl:bottom-16'>
-              <h1 className='uppercase font-semibold sm:text-xl sm:mb-1 md:text-2xl md:my-2 lg:text-4xl lg:my-4 xl:text-5xl'>
-                Lancet Architects
-              </h1>
-              <p className='text-sm sm:text-base lg:text-xl xl:text-2xl'>
-                The place where dreams are crafted
-              </p>
+            <h1 className='uppercase font-semibold sm:text-xl sm:mb-1 md:text-2xl md:my-2 lg:text-4xl lg:my-4 xl:text-5xl'>
+              Lancet Architects
+            </h1>
+            <p className='text-sm sm:text-base lg:text-xl xl:text-2xl'>
+              The place where dreams are crafted
+            </p>
           </div>
         </section>
         <section className='bg-gray-100 py-5 md:py-12 lg:py-14'>
