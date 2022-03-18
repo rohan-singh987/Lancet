@@ -78,58 +78,66 @@ const Interiors = () => {
         </div>
       </section>
       <section className='p-3 pt-8 bg-gray-300'>
-        <h1 className='text-center uppercase font-semibold text-lg mb-5 md:text-xl md:font-bold lg:text-2xl'>Our Crafts</h1>
-        <div className='space-y-5 mb-5'>
-          <div className='w-3/4 mx-auto text-white bg-gradient-to-tr from-black to-gray-500 p-4 flex'>
-            <div className='w-1/2 my-auto p-3'>
-              dfg
-            </div>
-            <div className='w-1/2 md:w-2/5 self-center'>
-              <Image
-                src="/media/interiors_img_4.jpg"
-                height="1080"
-                width="1080"
-                alt="Designer Room image"
-              />
-            </div>
-          </div>
-          <div className='w-3/4 mx-auto text-white bg-gradient-to-tr from-black to-gray-500 p-4 flex'>
-            <div className='w-1/2 md:w-2/5 self-center'>
-              <Image
-                src="/media/interiors_img_4.jpg"
-                height="1080"
-                width="1080"
-                alt="Designer Room image"
-              />
-            </div>
-            <div className='w-1/2 my-auto p-3'>
-              dfg
+        <h1 className='text-center uppercase font-semibold text-lg mb-5 md:mb-8 md:text-xl md:font-bold lg:text-2xl'>Our Crafts</h1>
+        <div className='space-y-5 mb-5 md:flex md:flex-wrap md:space-y-0 justify-evenly'>
+          <div className='w-3/4 mx-auto md:pb-7 md:w-2/5'>
+            <div className=' text-white shadow-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-black to-gray-500 p-4 flex'>
+              <div className='w-1/2 my-auto p-3'>
+                1
+              </div>
+              <div className='w-1/2 md:w-2/5 self-center'>
+                <Image
+                  src="/media/interiors_img_4.jpg"
+                  height="1080"
+                  width="1080"
+                  alt="Designer Room image"
+                />
+              </div>
             </div>
           </div>
-          <div className='w-3/4 mx-auto text-white bg-gradient-to-tr from-black to-gray-500 p-4 flex'>
-            <div className='w-1/2 my-auto p-3'>
-              dfg
-            </div>
-            <div className='w-1/2 md:w-2/5 self-center'>
-              <Image
-                src="/media/interiors_img_4.jpg"
-                height="1080"
-                width="1080"
-                alt="Designer Room image"
-              />
+          <div className='w-3/4 mx-auto md:pb-7 md:w-2/5'>
+            <div className='text-white shadow-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-black to-gray-500 p-4 flex md:flex-row-reverse'>
+              <div className='w-1/2 md:w-2/5 self-center'>
+                <Image
+                  src="/media/interiors_img_4.jpg"
+                  height="1080"
+                  width="1080"
+                  alt="Designer Room image"
+                />
+              </div>
+              <div className='w-1/2 my-auto p-3'>
+                2
+              </div>
             </div>
           </div>
-          <div className='w-3/4 mx-auto text-white bg-gradient-to-tr from-black to-gray-500 p-4 flex'>
-            <div className='w-1/2 md:w-2/5 self-center'>
-              <Image
-                src="/media/interiors_img_4.jpg"
-                height="1080"
-                width="1080"
-                alt="Designer Room image"
-              />
+          <div className='w-3/4 mx-auto md:pb-7 md:w-2/5'>
+            <div className='text-white shadow-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-black to-gray-500 p-4 flex md:flex-row-reverse'>
+              <div className='w-1/2 my-auto p-3'>
+                3
+              </div>
+              <div className='w-1/2 md:w-2/5 self-center'>
+                <Image
+                  src="/media/interiors_img_4.jpg"
+                  height="1080"
+                  width="1080"
+                  alt="Designer Room image"
+                />
+              </div>
             </div>
-            <div className='w-1/2 my-auto p-3'>
-              dfg
+          </div>
+          <div className='w-3/4 mx-auto md:pb-7 md:w-2/5'>
+            <div className='text-white shadow-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-black to-gray-500 p-4 flex md:justify-evenly'>
+              <div className='w-1/2 md:w-2/5 self-center'>
+                <Image
+                  src="/media/interiors_img_4.jpg"
+                  height="1080"
+                  width="1080"
+                  alt="Designer Room image"
+                />
+              </div>
+              <div className='w-1/2 my-auto p-3'>
+                4
+              </div>
             </div>
           </div>
         </div>
