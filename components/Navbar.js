@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import imgg from '../public/media/Screenshot 2022-03-21 at 10.18.58 PM.png'
 
-const navbar = () => {
+const Navbar = () => {
     return (
 
         <nav className='flex items-center flex-wrap bg-gradient-to-r from-gray-500 via-gray-700 to-black  p-3 '>
@@ -69,4 +69,4 @@ const navbar = () => {
     )
 }
 
-export default navbar
+export default Navbar
