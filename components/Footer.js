@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const footer = () => {
+const Footer = () => {
   return (
     <>
       <div className="bg-slate-200 sm:flex sm:justify-between">
@@ -55,4 +55,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;
