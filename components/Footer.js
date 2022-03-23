@@ -14,8 +14,8 @@ const Footer = () => {
             Office
           </div>
           <div className="mt-1">
-            <p className="text-center">14, Amrapali Vihar,</p>
-            <p className="text-center">Raibareli Road,</p>
+            <span className="text-center">14, Amrapali Vihar,</span>
+            <span className="text-center">Raibareli Road,</span>
             <p className="text-center">Near Sainik Dhaba,</p>
             <p className="text-center">Lucknow</p>
           </div>
