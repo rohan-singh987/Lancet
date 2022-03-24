@@ -41,7 +41,7 @@ const Interiors = () => {
               </p>
             </div>
           </div>
-          <div className='w-3/4 rounded-xl bg-gradient-to-r from-black to-gray-500 shadow-xl p-3 mx-auto flex sm:p-5 md:p-8 md:w-3/5 lg:p-10 justify-center hover:scale-105 transition-all ease-in-out'>
+          <div className='w-3/4 rounded-xl  bg-gradient-to-r from-[#ebcbb6] to-[#93725a] shadow-xl p-3 mx-auto flex sm:p-5 md:p-8 md:w-3/5 lg:p-10 justify-center hover:scale-105 transition-all ease-in-out'>
             <div className='w-1/2 p-3 my-auto sm:p-5 md:p-8 lg:p-10'>
               <h2 className='uppercase text-white text-lg font-semibold sm:text-xl md:text-2xl md:font-bold lg:text-3xl lg:mb-3'>Modular Kitchens</h2>
               <p className='text-sm text-white sm:text-base md:text-lg lg:text-xl'>
@@ -58,7 +58,7 @@ const Interiors = () => {
               />
             </div>
           </div>
-          <div className='w-3/4 rounded-xl bg-gradient-to-r from-gray-500 to-black shadow-xl p-3 mx-auto flex sm:p-5 md:p-8 md:w-3/5 lg:p-10 justify-center hover:scale-105 transition-all ease-in-out'>
+          <div className='w-3/4 rounded-xl  bg-gradient-to-r from-[#ebcbb6] to-[#93725a] shadow-xl p-3 mx-auto flex sm:p-5 md:p-8 md:w-3/5 lg:p-10 justify-center hover:scale-105 transition-all ease-in-out'>
             <div className='w-1/2 md:w-2/5 self-center'>
               <Image
                 src="/media/interiors_img_4.jpg"
