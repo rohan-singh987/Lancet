@@ -3,8 +3,8 @@ import React from 'react'
 
 const Interiors = () => {
   return (
-    <>
-      <section className='relative'>
+    <div className="">
+      <section className='relative '>
         <div>
           <Image
             src="/media/interiors_img_1.jpg"
@@ -20,11 +20,11 @@ const Interiors = () => {
           </p>
         </div>
       </section>
-      <section className='p-3 pb-5 lg:p-8'>
+      <section className='p-3 pb-5 lg:p-8 bg-gradient-to-r from-[#e9ae88] to-[#f5e7cecf] '>
         <h1 className='text-center uppercase font-semibold text-lg mb-5 md:text-xl md:font-bold lg:text-2xl lg:mt-3'>What we Provide?</h1>
         <p className='text-sm text-center px-5 mb-5 sm:px-16 md:px-24 lg:text-base lg:px-32 lg:mb-12'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi ea est autem aperiam ullam dignissimos magnam, rem, voluptate esse ipsa suscipit? Voluptatibus ut ab eaque mollitia, quidem a explicabo cum!</p>
         <div className='space-y-5 lg:space-y-10'>
-          <div className='w-3/4 rounded-xl bg-gradient-to-r from-gray-500 to-black shadow-xl p-3 mx-auto flex sm:p-5 md:p-8 md:w-3/5 lg:p-10 justify-center hover:scale-105 transition-all ease-in-out'>
+          <div className='w-3/4 rounded-xl bg-gradient-to-r from-[#ebcbb6] to-[#93725a] shadow-xl p-3 mx-auto flex sm:p-5 md:p-8 md:w-3/5 lg:p-10 justify-center hover:scale-105 transition-all ease-in-out'>
             <div className='w-1/2 md:w-2/5 self-center'>
               <Image
                 src="/media/interiors_img_2.jpg"
@@ -77,7 +77,7 @@ const Interiors = () => {
           </div>
         </div>
       </section>
-      <section className='p-3 pt-8 bg-gray-300'>
+      <section className='p-3 pt-8 bg-[#FFB4B4]'>
         <h1 className='text-center uppercase font-semibold text-lg mb-5 md:mb-8 md:text-xl md:font-bold lg:text-2xl'>Our Crafts</h1>
         <div className='space-y-5 mb-5 md:flex md:flex-wrap md:space-y-0 justify-evenly'>
           <div className='w-3/4 mx-auto md:pb-7 md:w-2/5'>
@@ -96,7 +96,7 @@ const Interiors = () => {
             </div>
           </div>
           <div className='w-3/4 mx-auto md:pb-7 md:w-2/5'>
-            <div className='text-white shadow-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-black to-gray-500 p-4 flex md:flex-row-reverse'>
+            <div className='text-white shadow-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-[#5698a0] to-[#F7F7E8] p-4 flex md:flex-row-reverse'>
               <div className='w-1/2 md:w-2/5 self-center'>
                 <Image
                   src="/media/interiors_img_4.jpg"
@@ -142,7 +142,7 @@ const Interiors = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   )
 };
 
