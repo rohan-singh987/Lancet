@@ -4,7 +4,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <div className="bg-slate-200 sm:flex sm:justify-between">
+      <div className="bg-slate-200 sm:flex sm:justify-between p-5">
         {/* logo */}
         <div className="text-center">Lancet Architects</div>
 
@@ -14,8 +14,8 @@ const Footer = () => {
             Office
           </div>
           <div className="mt-1">
-            <span className="text-center">14, Amrapali Vihar,</span>
-            <span className="text-center">Raibareli Road,</span>
+            <p className="text-center">14, Amrapali Vihar,</p>
+            <p className="text-center">Raibareli Road,</p>
             <p className="text-center">Near Sainik Dhaba,</p>
             <p className="text-center">Lucknow</p>
           </div>
