@@ -4,7 +4,7 @@ import image from '../assets/portfolioIMG.jpg'
 
 const Portfolio = () => {
   return (
-    <div className="  pt-9 bg-slate-400">
+    <div className="  pt-9 bg-gradient-to-r from-[#97999c] to-[#b7d0f8] w-full h-full ">
       <div className=" flex flex-col md:flex-row items-center justify-center relative ">
         
         <div className=" lg:w-1/4 md:w-1/2  w-fit  bg-slate-500 text-white sm:p-12 p-5 sm:m-9 m-5 md:top-28 relative z-10 ">
@@ -23,9 +23,9 @@ const Portfolio = () => {
 
       </div>
       
-      <div className=" flex flex-col md:flex-row items-center justify-center absolute ">
+      <div className=" flex flex-col md:flex-row items-center justify-center  ">
         
-        <div className="md:shrink-0 relative">
+        <div className="md:shrink-0 ">
         <Image 
         src={image}
         alt="image"

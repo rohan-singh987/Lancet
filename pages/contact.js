@@ -23,44 +23,67 @@ const contact = () => {
         //     </div>
         // </div>
         <div className="bg-gradient-to-r from-[#97999c] to-[#b7d0f8] overflow-hidden">
-   <div className=" flex flex-col md:flex-row items-center justify-center pt-20 mb-48 ">
-        
-        <div className="md:shrink-0 relative">
-        <Image 
-        src={image}
-        alt="image"
-        width='500'
-        height='500'
-        />
-        </div>
+            <div className=" flex flex-col md:flex-row items-center justify-center pt-20 mb-48 ">
 
-        <div className=" lg:w-1/4 md:w-1/2 w-fit  bg-[#6e7c80] text-white sm:p-12 p-5 pb-2 sm:ml-64 m-9 sm:absolute z-10 md:top-52 top-56">
-          <h1>Vintage Vantage</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus odit placeat earum deserunt ea id sapiente vero tempora! Dolorem sapiente accusantium atque itaque optio aut cupiditate ipsa asperiores aliquam rerum! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime, sapiente. Voluptatem sapiente soluta pariatur maxime neque quos omnis aperiam facilis. Temporibus odit placeat facilis.</p>
-          <div className="pt-6 flex items-center justify-center ">
+                <div className="md:shrink-0 relative">
+                    <Image
+                        src={image}
+                        alt="image"
+                        width='500'
+                        height='500'
+                    />
+                </div>
 
-          <Image 
-        src={fb}
-        alt="image"
-        width='35'
-        height='35'
-        />
-    
-          <Image 
-        src={insta}
-        alt="image"
-        width='35'
-        height='35'
-        />
-       
-        </div>
-        </div>
-        
+                <div className=" lg:w-1/4 md:w-1/2 w-fit  bg-[#6e7c80] text-white sm:p-12 p-5 pb-2 sm:ml-64 m-9 sm:absolute z-10 md:top-52 top-56">
+                    <div className="flex justify-center ">
+                        <h1 className="mx-2" >Contact US</h1>
+                        <Image
+                            src={call}
+                            alt="image"
+                            width='25'
+                            height='25'
+                        />
+                    </div>
+                    <p className="text-center items-center py-5">14, Amrapali Vihar,
 
-      </div>
-      
+                        Raibareli Road,
 
-            <htmlForm className="w-1/2 h-1/2 max-">
+                        Near Sainik Dhaba,
+
+                        Lucknow</p>
+                    
+                    <p className="text-center items-center">
+                    Email: lancentarchitects@gmail.com
+
+                    Phone: +91 7275712348
+                    </p>
+                    <div className="pt-6 flex items-center justify-center ">
+
+                        <Image
+                            src={fb}
+                            alt="image"
+                            width='35'
+                            height='35'
+                        />
+
+                        <Image
+                            src={insta}
+                            alt="image"
+                            width='35'
+                            height='35'
+                        />
+
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div className="" >
+
+
+
+            <htmlForm className="w-1/4 h-1/2 border-4">
                 <div className="flex flex-wrap -mx-3 mb-6 md:px-40 sm:px-20 px-10">
                     <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                         <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" htmlFor="grid-first-name">
@@ -103,7 +126,10 @@ const contact = () => {
                     <div className="md:w-2/3"></div>
                 </div>
             </htmlForm>
-    </div>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1001.9994351424767!2d80.94588201851697!3d26.76100970703398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfb78041db227%3A0x86fb742e0ecd1c1f!2sRaibareli%20Rd%2C%20Sector%203%2C%20Vrindavan%20Colony%2C%20Lucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1648053628327!5m2!1sen!2sin" className="w-1/2 h-96 flex justify-center items-center" loading="lazy"></iframe>
+            </div>
+        </div>
     )
 }
 

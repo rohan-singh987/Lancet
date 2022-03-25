@@ -37,7 +37,7 @@ const Navbar = () => {
                     </Link>
                     <Link href='/interiors'>
                         <a className='lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center uppercase hover:bg-gray-600 hover:text-white '>
-                            Iteriors
+                            Interiors
                         </a>
                     </Link>
                     <Link href='/portfolio'>
