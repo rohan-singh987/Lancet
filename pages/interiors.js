@@ -82,7 +82,6 @@ const Interiors = () => {
         <div className='space-y-5 mb-5 md:flex md:flex-wrap md:space-y-0 justify-evenly'>
           <div className='w-3/4 mx-auto md:pb-7 md:w-2/5'>
             <div className=' text-white shadow-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-indigo-200 via-slate-600 to-indigo-200 p-4 flex'>
-
               <div className='w-1/2 my-auto p-3'>
                 1
               </div>
@@ -97,8 +96,7 @@ const Interiors = () => {
             </div>
           </div>
           <div className='w-3/4 mx-auto md:pb-7 md:w-2/5'>
-
-            <div className='text-white shadow-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-indigo-200 via-slate-600 to-indigo-200 p-4 flex md:flex-row-reverse'>
+            <div className='text-white shadow-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-indigo-200 via-slate-600 to-indigo-200 p-4 flex md:flex-row-reverse>'>
 
               <div className='w-1/2 md:w-2/5 self-center'>
                 <Image
@@ -114,9 +112,8 @@ const Interiors = () => {
             </div>
           </div>
           <div className='w-3/4 mx-auto md:pb-7 md:w-2/5'>
-
             <div className='text-white shadow-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-indigo-200 via-slate-600 to-indigo-200 p-4 flex md:flex-row-reverse'>
- className='w-1/2 my-auto p-3'>
+              <div className='w-1/2 my-auto p-3'>
                 3
               </div>
               <div className='w-1/2 md:w-2/5 self-center'>
@@ -130,9 +127,7 @@ const Interiors = () => {
             </div>
           </div>
           <div className='w-3/4 mx-auto md:pb-7 md:w-2/5'>
-
             <div className='text-white shadow-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-indigo-200 via-slate-600 to-indigo-200 p-4 flex md:justify-evenly'>
-
               <div className='w-1/2 md:w-2/5 self-center'>
                 <Image
                   src="/media/interiors_img_4.jpg"
@@ -147,8 +142,8 @@ const Interiors = () => {
             </div>
           </div>
         </div>
-      </section>
-    </div>
+      </section >
+    </div >
   )
 };
 
