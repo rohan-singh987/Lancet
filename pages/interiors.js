@@ -24,7 +24,7 @@ const Interiors = () => {
         <h1 className='text-center uppercase font-semibold text-lg mb-5 md:text-xl md:font-bold lg:text-2xl lg:mt-3'>What we Provide?</h1>
         <p className='text-sm text-center px-5 mb-5 sm:px-16 md:px-24 lg:text-base lg:px-32 lg:mb-12'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi ea est autem aperiam ullam dignissimos magnam, rem, voluptate esse ipsa suscipit? Voluptatibus ut ab eaque mollitia, quidem a explicabo cum!</p>
         <div className='space-y-5 lg:space-y-10'>
-          <div className='w-3/4 rounded-xl bg-gradient-to-r from-[#ebcbb6] to-[#93725a] shadow-xl p-3 mx-auto flex sm:p-5 md:p-8 md:w-3/5 lg:p-10 justify-center hover:scale-105 transition-all ease-in-out'>
+          <div className='w-3/4 rounded-xl bg-gradient-to-r from-[#93725a] to-[#ebcbb6] shadow-xl p-3 mx-auto flex sm:p-5 md:p-8 md:w-3/5 lg:p-10 justify-center hover:scale-105 transition-all ease-in-out'>
             <div className='w-1/2 md:w-2/5 self-center'>
               <Image
                 src="/media/interiors_img_2.jpg"
@@ -35,16 +35,16 @@ const Interiors = () => {
               />
             </div>
             <div className='w-1/2 p-3 my-auto sm:p-5 md:p-8 lg:p-10'>
-              <h2 className='uppercase text-white text-lg font-semibold sm:text-xl md:text-2xl md:font-bold lg:text-3xl lg:mb-3'>Ceilings</h2>
-              <p className='text-sm text-white sm:text-base md:text-lg lg:text-xl'>
+              <h2 className='uppercase text-lg font-semibold sm:text-xl md:text-2xl md:font-bold lg:text-3xl lg:mb-3'>Ceilings</h2>
+              <p className='text-sm sm:text-base md:text-lg lg:text-xl'>
                 Lorem ipsum dolor sit amet
               </p>
             </div>
           </div>
           <div className='w-3/4 rounded-xl  bg-gradient-to-r from-[#ebcbb6] to-[#93725a] shadow-xl p-3 mx-auto flex sm:p-5 md:p-8 md:w-3/5 lg:p-10 justify-center hover:scale-105 transition-all ease-in-out'>
             <div className='w-1/2 p-3 my-auto sm:p-5 md:p-8 lg:p-10'>
-              <h2 className='uppercase text-white text-lg font-semibold sm:text-xl md:text-2xl md:font-bold lg:text-3xl lg:mb-3'>Modular Kitchens</h2>
-              <p className='text-sm text-white sm:text-base md:text-lg lg:text-xl'>
+              <h2 className='uppercase text-lg font-semibold sm:text-xl md:text-2xl md:font-bold lg:text-3xl lg:mb-3'>Modular Kitchens</h2>
+              <p className='text-sm sm:text-base md:text-lg lg:text-xl'>
                 Lorem ipsum dolor sit amet
               </p>
             </div>
@@ -58,7 +58,7 @@ const Interiors = () => {
               />
             </div>
           </div>
-          <div className='w-3/4 rounded-xl  bg-gradient-to-r from-[#ebcbb6] to-[#93725a] shadow-xl p-3 mx-auto flex sm:p-5 md:p-8 md:w-3/5 lg:p-10 justify-center hover:scale-105 transition-all ease-in-out'>
+          <div className='w-3/4 rounded-xl  bg-gradient-to-r from-[#93725a] to-[#ebcbb6] shadow-xl p-3 mx-auto flex sm:p-5 md:p-8 md:w-3/5 lg:p-10 justify-center hover:scale-105 transition-all ease-in-out'>
             <div className='w-1/2 md:w-2/5 self-center'>
               <Image
                 src="/media/interiors_img_4.jpg"
@@ -69,8 +69,8 @@ const Interiors = () => {
               />
             </div>
             <div className='w-1/2 p-3 my-auto sm:p-5 md:p-8 lg:p-10'>
-              <h2 className='uppercase text-white text-lg font-semibold sm:text-xl md:text-2xl md:font-bold lg:text-3xl lg:mb-3'>Designer Rooms</h2>
-              <p className='text-sm text-white sm:text-base md:text-lg lg:text-xl'>
+              <h2 className='uppercase text-lg font-semibold sm:text-xl md:text-2xl md:font-bold lg:text-3xl lg:mb-3'>Designer Rooms</h2>
+              <p className='text-sm sm:text-base md:text-lg lg:text-xl'>
                 Lorem ipsum dolor sit amet
               </p>
             </div>
@@ -82,6 +82,7 @@ const Interiors = () => {
         <div className='space-y-5 mb-5 md:flex md:flex-wrap md:space-y-0 justify-evenly'>
           <div className='w-3/4 mx-auto md:pb-7 md:w-2/5'>
             <div className=' text-white shadow-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-indigo-200 via-slate-600 to-indigo-200 p-4 flex'>
+
               <div className='w-1/2 my-auto p-3'>
                 1
               </div>
@@ -96,7 +97,9 @@ const Interiors = () => {
             </div>
           </div>
           <div className='w-3/4 mx-auto md:pb-7 md:w-2/5'>
+
             <div className='text-white shadow-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-indigo-200 via-slate-600 to-indigo-200 p-4 flex md:flex-row-reverse'>
+
               <div className='w-1/2 md:w-2/5 self-center'>
                 <Image
                   src="/media/interiors_img_4.jpg"
@@ -111,8 +114,9 @@ const Interiors = () => {
             </div>
           </div>
           <div className='w-3/4 mx-auto md:pb-7 md:w-2/5'>
+
             <div className='text-white shadow-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-indigo-200 via-slate-600 to-indigo-200 p-4 flex md:flex-row-reverse'>
-              <div className='w-1/2 my-auto p-3'>
+ className='w-1/2 my-auto p-3'>
                 3
               </div>
               <div className='w-1/2 md:w-2/5 self-center'>
@@ -126,7 +130,9 @@ const Interiors = () => {
             </div>
           </div>
           <div className='w-3/4 mx-auto md:pb-7 md:w-2/5'>
+
             <div className='text-white shadow-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-indigo-200 via-slate-600 to-indigo-200 p-4 flex md:justify-evenly'>
+
               <div className='w-1/2 md:w-2/5 self-center'>
                 <Image
                   src="/media/interiors_img_4.jpg"
