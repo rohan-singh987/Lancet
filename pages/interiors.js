@@ -77,11 +77,11 @@ const Interiors = () => {
           </div>
         </div>
       </section>
-      <section className='p-3 pt-8 bg-[#FFB4B4]'>
+      <section className='p-3 pt-8 bg-gradient-to-tl from-slate-700 to-yellow-100'>
         <h1 className='text-center uppercase font-semibold text-lg mb-5 md:mb-8 md:text-xl md:font-bold lg:text-2xl'>Our Crafts</h1>
         <div className='space-y-5 mb-5 md:flex md:flex-wrap md:space-y-0 justify-evenly'>
           <div className='w-3/4 mx-auto md:pb-7 md:w-2/5'>
-            <div className=' text-white shadow-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-black to-gray-500 p-4 flex'>
+            <div className=' text-white shadow-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-indigo-200 via-slate-600 to-indigo-200 p-4 flex'>
               <div className='w-1/2 my-auto p-3'>
                 1
               </div>
@@ -96,7 +96,7 @@ const Interiors = () => {
             </div>
           </div>
           <div className='w-3/4 mx-auto md:pb-7 md:w-2/5'>
-            <div className='text-white shadow-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-[#5698a0] to-[#F7F7E8] p-4 flex md:flex-row-reverse'>
+            <div className='text-white shadow-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-indigo-200 via-slate-600 to-indigo-200 p-4 flex md:flex-row-reverse'>
               <div className='w-1/2 md:w-2/5 self-center'>
                 <Image
                   src="/media/interiors_img_4.jpg"
@@ -111,7 +111,7 @@ const Interiors = () => {
             </div>
           </div>
           <div className='w-3/4 mx-auto md:pb-7 md:w-2/5'>
-            <div className='text-white shadow-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-black to-gray-500 p-4 flex md:flex-row-reverse'>
+            <div className='text-white shadow-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-indigo-200 via-slate-600 to-indigo-200 p-4 flex md:flex-row-reverse'>
               <div className='w-1/2 my-auto p-3'>
                 3
               </div>
@@ -126,7 +126,7 @@ const Interiors = () => {
             </div>
           </div>
           <div className='w-3/4 mx-auto md:pb-7 md:w-2/5'>
-            <div className='text-white shadow-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-black to-gray-500 p-4 flex md:justify-evenly'>
+            <div className='text-white shadow-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-indigo-200 via-slate-600 to-indigo-200 p-4 flex md:justify-evenly'>
               <div className='w-1/2 md:w-2/5 self-center'>
                 <Image
                   src="/media/interiors_img_4.jpg"

@@ -127,7 +127,7 @@ const contact = () => {
                 </div>
             </htmlForm>
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1001.9994351424767!2d80.94588201851697!3d26.76100970703398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfb78041db227%3A0x86fb742e0ecd1c1f!2sRaibareli%20Rd%2C%20Sector%203%2C%20Vrindavan%20Colony%2C%20Lucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1648053628327!5m2!1sen!2sin" className="w-1/2 h-96 flex justify-center items-center" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1001.9994351424767!2d80.94588201851697!3d26.76100970703398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfb78041db227%3A0x86fb742e0ecd1c1f!2sRaibareli%20Rd%2C%20Sector%203%2C%20Vrindavan%20Colony%2C%20Lucknow%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1648053628327!5m2!1sen!2sin" className="w-full h-96 flex justify-center items-center" loading="lazy"></iframe>
             </div>
         </div>
     )
