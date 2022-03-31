@@ -15,12 +15,12 @@ export default function Home() {
             <Image
               src="/media/home_img_1.jpg"
               width="1920"
-              height="800"
+              height="1080"
               alt="Landing page display image"
             />
           </div>
-          <div className='absolute left-12 bottom-5 h-1/2 w-1/2 rounded-lg bg-[#B7CADB] opacity-95 sm:left-20 sm:h-1/3 sm:w-2/5 md:bottom-10 md:left-24 lg:hover:border-4 lg:hover:border-[#9581f002] lg:hover:scale-105 transition-all ease-in-out lg:bottom-14 lg:left-32 xl:left-40 xl:bottom-16'>
-            <h1 className='uppercase px-4 text-gray-800 font-semibold sm:text-xl sm:mb-1 md:text-2xl md:my-2 lg:text-4xl lg:my-4 xl:text-5xl'>
+          <div className='absolute left-12 bottom-5 py-1 h-1/3 w-1/2 rounded-lg bg-[#B7CADB] opacity-95 sm:left-20 sm:h-1/3 sm:w-2/5 md:bottom-10 md:left-24 lg:hover:border-4 lg:hover:border-[#9581f002] lg:hover:scale-105 transition-all ease-in-out lg:bottom-14 lg:left-32 xl:left-40 xl:bottom-16'>
+            <h1 className='uppercase px-4 text-gray-800 font-semibold sm:text-3xl sm:mb-1 md:text-4xl md:my-2 lg:text-5xl lg:my-4'>
               Lancet Architects
             </h1>
             <p className='text-sm px-4 text-gray-700 sm:text-base lg:text-xl xl:text-2xl'>
@@ -124,7 +124,7 @@ export default function Home() {
                   <h2 className='text-center uppercase font-semibold text-black text-lg lg:text-xl mb-3'>Exquisiteness</h2>
                   <article>
                     <p className='text-center text-sm text-black lg:text-base'>
-                    We, at Lancet Architects, target the utmost flawlessness to deliver the most refined results. We believe, "Perfection is doing traditional chores with extraordinary style." Our elite performance in the field presents us as the top-notch pick for remodeling your dream designs into authentic interiors.
+                    We, at Lancet Architects, target the utmost flawlessness to deliver the most refined results. Our elite performance in the field presents us as the top-notch pick for remodeling your dream designs into authentic interiors.
                     </p>
                   </article>
                 </div>
