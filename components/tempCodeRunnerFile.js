@@ -1,25 +1,5 @@
-import Link from 'next/link'
-import React from 'react'
 
-const Navbar = () => {
-    return (
-
-        <nav className='flex justify-evenly items-center flex-wrap bg-gradient-to-r from-gray-800 via-gray-200 to-gray-800  p-3 '>
-            <div className="text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-white to-white">
-                <Link href='/'
-                 className="bg-clip-text text-transparent bg-gradient-to-r from-rose-700 to-red-200">
-                    LANCET
-                </Link>
-            </div>
-            {/* </Link> */}
-            <button className=' inline-flex p-3 hover:bg-gray-900 rounded lg:hidden text-white ml-auto hover:text-white outline-none'>
-                <svg
-                    className='w-6 h-6'
-                    fill='none'
-                    stroke='currentColor'
-                    viewBox='0 0 24 24'
-                    xmlns='http://www.w3.org/2000/svg'
-                >c
+                >conic-gradient(rgb(124, 45, 18), rgb(254, 243, 199), rgb(124, 45, 18))
                     <path
                         strokeLinecap='round'
                         strokeLinejoin='round'
@@ -62,9 +42,3 @@ const Navbar = () => {
                     </Link>
                 </div>
             </div>
-        </nav>
-
-    )
-}
-
-export default Navbar
