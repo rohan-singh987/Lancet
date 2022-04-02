@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import Image from "next/image";
 
 const Navbar = () => {
     return (
@@ -10,7 +11,14 @@ const Navbar = () => {
 
                 <Link href='/'
                  className="bg-clip-text text-transparent bg-gradient-to-r from-rose-700 to-red-200">
-                    LANCET
+                     <div className='w-24 md:w-36 lg:w-48'>
+                     <Image
+                        src = "/media/logo.png"
+                        height = "100"
+                        width = "200"
+                    />
+                     </div>
+                    
                 </Link>
             </div>
             {/* </Link> */}
