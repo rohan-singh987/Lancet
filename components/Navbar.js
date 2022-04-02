@@ -4,8 +4,13 @@ import React from 'react'
 const Navbar = () => {
     return (
 
+<<<<<<< HEAD
         <nav className='flex justify-evenly items-center flex-wrap bg-gradient-to-r from-gray-800 via-gray-200 to-gray-800  p-3 '>
             <div className="text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-white to-white">
+=======
+        <nav className='flex justify-evenly items-center flex-wrap bg-gradient-to-r backdrop-blur-sm from-gray-200 via-gray-700 to-black  p-3 '>
+            <div className="text-3xl md:text-5xl font-extrabold bg-clip-text backdrop-blur-sm text-transparent bg-gradient-to-r from-white to-white">
+>>>>>>> f0e2070fa0d7cf7093fe54e87261d5c9e898f39a
                 <Link href='/'
                  className="bg-clip-text text-transparent bg-gradient-to-r from-rose-700 to-red-200">
                     LANCET
