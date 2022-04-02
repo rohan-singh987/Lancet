@@ -4,26 +4,32 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <div className="bg-slate-200 sm:flex sm:justify-between p-5">
+      <div className="bg-slate-200 md:flex md:justify-between p-5">
         {/* logo */}
-        <div className="text-center">Lancet Architects</div>
+        <div className="w-48 mx-auto sm:w-36 md:mx-10">
+          <Image
+            src = "/media/logo.png"
+            height="100"
+            width="200"
+            />
+        </div>
 
         {/* address */}
         <div>
-          <div className="flex justify-center text-lg font-bold mt-2">
+          <div className="flex justify-center text-md font-bold mt-2">
             Office
           </div>
           <div className="mt-1">
-            <p className="text-center">14, Amrapali Vihar,</p>
-            <p className="text-center">Raibareli Road,</p>
-            <p className="text-center">Near Sainik Dhaba,</p>
-            <p className="text-center">Lucknow</p>
+            <p className="text-center text-md">14, Amrapali Vihar,</p>
+            <p className="text-center text-md">Raibareli Road,</p>
+            <p className="text-center text-md">Near Sainik Dhaba,</p>
+            <p className="text-center text-md">Lucknow</p>
           </div>
         </div>
 
         {/* contact */}
         <div>
-          <div className="flex justify-center text-lg font-bold mt-2">
+          <div className="flex justify-center text-md font-bold mt-2">
             Contact
           </div>
           <p className="text-center">Email: lancentarchitects@gmail.com</p>

@@ -15,15 +15,15 @@ export default function Home() {
             <Image
               src="/media/home_img_1.jpg"
               width="1920"
-              height="1080"
+              height="900"
               alt="Landing page display image"
             />
           </div>
-          <div className='absolute left-12 bottom-5 py-1 h-1/3 w-1/2 rounded-lg bg-[#B7CADB] opacity-95 sm:left-20 sm:h-1/3 sm:w-2/5 md:bottom-10 md:left-24 lg:hover:border-4 lg:hover:border-[#9581f002] lg:hover:scale-105 transition-all ease-in-out lg:bottom-14 lg:left-32 xl:left-40 xl:bottom-16'>
-            <h1 className='uppercase px-4 text-gray-800 font-semibold sm:text-3xl sm:mb-1 md:text-4xl md:my-2 lg:text-5xl lg:my-4'>
+          <div className='absolute left-12 bottom-5 py-2 h-2/5 w-1/2 rounded-lg bg-[#B7CADB] opacity-95 sm:left-20 sm:h-1/3 sm:w-2/5 md:bottom-10 md:left-24 lg:hover:border-4 lg:hover:border-[#9581f002] lg:hover:scale-105 transition-all ease-in-out lg:bottom-14 lg:left-32 xl:left-40 xl:bottom-20 xl:h-1/4'>
+            <h1 className='uppercase px-4 text-gray-800 font-semibold sm:text-2xl sm:mb-1 md:text-3xl md:mb-1 lg:text-5xl lg:my-2 xl:px-6 xl:my-0'>
               Lancet Architects
             </h1>
-            <p className='text-sm px-4 text-gray-700 sm:text-base lg:text-xl xl:text-2xl'>
+            <p className='text-xs px-4 text-gray-700 sm:text-sm lg:text-lg lg:mb-1 xl:text-2xl'>
               The place where dreams are crafted
             </p>
           </div>
