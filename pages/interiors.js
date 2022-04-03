@@ -20,7 +20,7 @@ const Interiors = () => {
           </p>
         </div>
       </section>
-      <section className='p-3 pb-5 lg:p-8 bg-gradient-to-r from-[#e9ae88] to-[#f5e7cecf] '>
+      <section className='p-3 pb-5 lg:p-8 bg-gradient-to-r from-[#e9ae88] to-[#f5e7cecf] lg:mb-2'>
         <h1 className='text-center uppercase font-semibold text-lg mb-5 md:text-xl md:font-bold lg:text-2xl lg:mt-3'>What do we equip?</h1>
         <p className='text-sm text-center px-5 mb-5 sm:px-16 md:px-24 lg:text-base lg:px-32 lg:mb-12'>With Qbic, Lancet Architects steps ahead to deliver you a more charismatic take-off with your premium vision. We effort at amplifying your buildings to your favorite buildings! The corners you visit identify you!</p>
         <div className='space-y-5 lg:space-y-10'>
@@ -74,11 +74,11 @@ const Interiors = () => {
           </div>
         </div>
       </section>
-      <section className='p-3 pt-8 bg-gradient-to-tl from-slate-700 to-yellow-100'>
+      <section className='p-3 pt-8 bg-gradient-to-tl to-yellow-100 from-[#e9ae88]'>
         <h1 className='text-center uppercase font-semibold text-lg mb-5 md:mb-8 md:text-xl md:font-bold lg:text-2xl'>Our Crafts</h1>
         <div className='space-y-5 mb-5 md:flex md:flex-wrap md:space-y-0 justify-evenly'>
           <div className='w-3/4 mx-auto md:pb-7 md:w-2/5'>
-            <div className=' text-white shadow-xl rounded-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-indigo-200 via-slate-600 to-indigo-200 p-4 flex'>
+            <div className=' text-white shadow-xl rounded-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-[#876445] to-[#CA965C] p-4 flex'>
               <div className='w-1/2 my-auto p-3'>
                 1
               </div>
@@ -93,7 +93,7 @@ const Interiors = () => {
             </div>
           </div>
           <div className='w-3/4 mx-auto md:pb-7 md:w-2/5'>
-            <div className='text-white shadow-xl rounded-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-indigo-200 via-slate-600 to-indigo-200 p-4 flex md:flex-row-reverse>'>
+            <div className='text-white shadow-xl rounded-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-[#876445] to-[#CA965C] p-4 flex md:flex-row-reverse>'>
 
               <div className='w-1/2 md:w-2/5 self-center'>
                 <Image
@@ -109,7 +109,7 @@ const Interiors = () => {
             </div>
           </div>
           <div className='w-3/4 mx-auto md:pb-7 md:w-2/5'>
-            <div className='text-white shadow-xl rounded-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-indigo-200 via-slate-600 to-indigo-200 p-4 flex md:flex-row-reverse'>
+            <div className='text-white shadow-xl rounded-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-[#876445] to-[#CA965C] p-4 flex md:flex-row-reverse'>
               <div className='w-1/2 my-auto p-3'>
                 3
               </div>
@@ -124,7 +124,7 @@ const Interiors = () => {
             </div>
           </div>
           <div className='w-3/4 mx-auto md:pb-7 md:w-2/5'>
-            <div className='text-white shadow-xl rounded-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-indigo-200 via-slate-600 to-indigo-200 p-4 flex md:justify-evenly'>
+            <div className='text-white shadow-xl rounded-xl hover:scale-105 transition-all ease-in-out bg-gradient-to-tr from-[#876445] to-[#CA965C] p-4 flex md:justify-evenly'>
               <div className='w-1/2 md:w-2/5 self-center'>
                 <Image
                   src="/media/interiors_img_4.jpg"
