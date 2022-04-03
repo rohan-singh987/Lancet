@@ -19,17 +19,17 @@ export default function Home() {
               alt="Landing page display image"
             />
           </div>
-          <div className='absolute left-12 bottom-5 py-2 h-2/5 w-1/2 rounded-lg bg-[#a5744a] opacity-95 sm:left-20 sm:h-1/3 sm:w-2/5 md:bottom-10 md:left-24 lg:hover:border-4 lg:hover:border-[#9581f002] lg:hover:scale-105 transition-all ease-in-out lg:bottom-14 lg:left-32 xl:left-40 xl:bottom-28 xl:h-1/4'>
+          <div className='absolute left-12 bottom-5 py-2 h-2/5 w-1/2 rounded-lg bg-[#c49770] opacity-95 sm:left-20 sm:h-1/3 sm:w-2/5 md:bottom-10 md:left-24 lg:hover:border-4 lg:hover:border-[#9581f002] lg:hover:scale-105 transition-all ease-in-out lg:bottom-14 lg:left-32 lg:w-1/3 xl:left-40 xl:bottom-28 xl:h-1/4'>
             <h1 className='uppercase px-4 text-gray-800 font-semibold sm:text-2xl sm:mb-1 md:text-3xl md:mb-1 lg:text-5xl lg:my-2 xl:px-8 xl:my-0 xl:py-1'>
               Lancet Architects
             </h1>
-            <p className='text-xs px-4 text-gray-700 sm:text-sm lg:text-lg lg:mb-1 xl:text-2xl xl:px-8'>
+            <p className='text-xs px-4 text-gray-700 sm:text-sm lg:text-lg lg:mb-1 xl:text-xl xl:px-8'>
               The place where dreams are crafted
             </p>
           </div>
         </section>
         <section className=' py-5 md:py-12'>
-          <div className='bg-gradient-to-r from-[#876445] to-[#F4DFBA] rounded-lg w-3/4 mx-auto py-5 md:flex lg:hover:scale-105 transition-all ease-in-out lg:rounded-2xl lg:py-0'>
+          <div className='bg-gradient-to-r to-[#876445] from-[#F4DFBA] rounded-lg w-3/4 mx-auto py-5 md:flex lg:hover:scale-105 transition-all ease-in-out lg:rounded-2xl lg:py-0'>
             <div className='md:w-3/5 md:my-auto lg:w-7/12'>
               <h2 className='text-center uppercase font-semibold mb-3 sm:text-xl sm:font-bold md:text-left md:px-10 lg:text-2xl xl:text-3xl'>Thriving creativity</h2>
               <p className='text-center text-sm px-3 sm:px-10 md:text-left lg:text-base lg:pr-14 xl:text-lg'>We understand the gravity that artistry implants! Lancet Architects focuses on flourishing creativity to its fullest. Our shades, patterns, and fashion are the finest palettes you can acquire at the wittiest price!</p>
@@ -71,7 +71,7 @@ export default function Home() {
           </section>
           <section className='p-3 space-y-5 md:flex md:space-y-0 md:justify-center md:py-5 lg:py-8 lg:px-10 xl:px-20'>
             <div className='w-3/5 mx-auto sm:w-1/3 md:w-52 lg:w-56 xl:w-64'>
-              <section className='bg-[#a5744a] rounded-xl  p-3 shadow-lg hover:scale-105 transition-all ease-in-out '>
+              <section className='bg-[#b17d50] rounded-xl  p-3 shadow-lg hover:scale-105 transition-all ease-in-out '>
                 <div>
                   <div className='w-8 mx-auto xl:w-10'>
                     <Image
@@ -91,7 +91,7 @@ export default function Home() {
               </section>
             </div>
             <div className='w-3/5 mx-auto sm:w-1/3 md:w-52 lg:w-56 xl:w-64'>
-              <section className='bg-[#a5744a] rounded-xl  p-3 shadow-lg hover:scale-105 transition-all ease-in-out '>
+              <section className='bg-[#b17d50] rounded-xl  p-3 shadow-lg hover:scale-105 transition-all ease-in-out '>
                 <div>
                   <div className='w-8 mx-auto xl:w-10'>
                     <Image
@@ -111,7 +111,7 @@ export default function Home() {
               </section>
             </div>
             <div className='w-3/5 mx-auto sm:w-1/3 md:w-52 lg:w-56 xl:w-64'>
-              <section className='bg-[#a5744a] rounded-xl  p-3 shadow-lg hover:scale-105 transition-all ease-in-out '>
+              <section className='bg-[#b17d50] rounded-xl  p-3 shadow-lg hover:scale-105 transition-all ease-in-out '>
                 <div>
                   <div className='w-8 mx-auto xl:w-10'>
                     <Image
