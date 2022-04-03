@@ -9,13 +9,14 @@ const Navbar = () => {
         <nav className='flex justify-evenly items-center flex-wrap bg-gradient-to-r backdrop-blur-sm from-gray-200 via-gray-700 to-black  p-3 '>
             <div className="text-3xl md:text-5xl font-extrabold bg-clip-text backdrop-blur-sm text-transparent bg-gradient-to-r from-white to-white">
 
-                <Link href='/'
+                <Link href='/' passHref=""
                  className="bg-clip-text text-transparent bg-gradient-to-r from-rose-700 to-red-200">
                      <div className='w-24 md:w-36 lg:w-48'>
                      <Image
                         src = "/media/logo.png"
                         height = "100"
                         width = "200"
+                        alt=" "
                     />
                      </div>
                     
