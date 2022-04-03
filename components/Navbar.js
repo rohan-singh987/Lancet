@@ -6,22 +6,18 @@ const Navbar = () => {
     return (
 
 
-        <nav className='flex justify-evenly items-center flex-wrap bg-gradient-to-r backdrop-blur-sm from-gray-200 via-gray-700 to-black  p-3 '>
-            <div className="text-3xl md:text-5xl font-extrabold bg-clip-text backdrop-blur-sm text-transparent bg-gradient-to-r from-white to-white">
-
+        <nav className='flex justify-evenly items-center flex-wrap bg-gradient-to-r from-[#1B1227] via-[#B66D5E] to-[#351324]  px-3'>
                 <Link href='/'
-                 className="bg-clip-text text-transparent bg-gradient-to-r from-rose-700 to-red-200">
-                     <div className='w-24 md:w-36 lg:w-48'>
-                     <Image
-                        src = "/media/logo.png"
-                        height = "100"
-                        width = "200"
-                    />
-                     </div>
-                    
+                    className="bg-clip-text text-transparent bg-gradient-to-r from-rose-700 to-red-200">
+                    <div className='w-24 md:w-36 lg:w-48'>
+                        <Image
+                            src="/media/logo.png"
+                            height="100"
+                            width="200"
+                        />
+                    </div>
+
                 </Link>
-            </div>
-            {/* </Link> */}
             <button className=' inline-flex p-3 hover:bg-gray-900 rounded lg:hidden text-white ml-auto hover:text-white outline-none'>
                 <svg
                     className='w-6 h-6'
