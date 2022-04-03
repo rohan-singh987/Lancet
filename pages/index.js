@@ -60,7 +60,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className=' py-3'>
+        <section className= 'py-3 lg:mt-1'>
           <section className='p-3'>
             <h1 className='text-center text-xl font-bold md:text-2xl uppercase lg:text-3xl xl:text-4xl'>Why Us?</h1>
             <article>
