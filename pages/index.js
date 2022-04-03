@@ -9,7 +9,7 @@ export default function Home() {
         <title>Lancet Architects</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <main>
+      <main className="bg-gradient-to-r from-[#9D9D9D] to-[#b7d0f8]">
         <section className='relative'>
           <div>
             <Image
@@ -28,7 +28,7 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <section className='bg-gradient-to-r from-[#9D9D9D] to-[#b7d0f8] py-5 md:py-12'>
+        <section className='py-5 md:py-12'>
           <div className='bg-gradient-to-r from-[#92A9BD] to-[#D3DEDC] rounded-lg w-3/4 mx-auto py-5 md:flex lg:hover:scale-105 transition-all ease-in-out lg:rounded-2xl lg:py-0'>
             <div className='md:w-3/5 md:my-auto lg:w-7/12'>
               <h2 className='text-center uppercase font-semibold mb-3 sm:text-xl sm:font-bold md:text-left md:px-10 lg:text-2xl xl:text-3xl'>Thriving creativity</h2>
@@ -44,7 +44,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className=' bg-gradient-to-r from-[#b7d0f8] to-[#9D9D9D] py-5 md:py-12'>
+        <section className='py-5 md:py-12'>
           <div className='bg-gradient-to-r from-[#D3DEDC] to-[#92A9BD] rounded-lg w-3/4 mx-auto py-5 md:flex md:flex-row-reverse lg:hover:scale-105 transition-all ease-in-out lg:rounded-2xl lg:py-0'>
             <div className='md:w-3/5 md:my-auto lg:w-7/12'>
               <h2 className='text-center text-black uppercase font-semibold mb-3 sm:text-xl sm:font-bold md:text-right md:px-10 lg:text-2xl xl:text-3xl'>Crafting Dreams</h2>
@@ -60,7 +60,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className='bg-gradient-to-r from-[#97999c] to-[#b7d0f8] py-3'>
+        <section className= 'py-3 lg:mt-1'>
           <section className='p-3'>
             <h1 className='text-center text-xl font-bold md:text-2xl uppercase lg:text-3xl xl:text-4xl'>Why Us?</h1>
             <article>

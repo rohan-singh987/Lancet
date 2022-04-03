@@ -16,8 +16,8 @@ const Portfolio = () => {
         <Image 
         src={image}
         alt="image"
-        width='400'
-        height='400'
+        width='350'
+        height='350'
         />
         </div>
 
@@ -29,8 +29,8 @@ const Portfolio = () => {
         <Image 
         src={image}
         alt="image"
-        width='400'
-        height='400'
+        width='350'
+        height='350'
         />
         </div>
 
@@ -40,6 +40,211 @@ const Portfolio = () => {
         </div>
         
 
+      </div>
+
+      <div>
+        <div className="flex flex-col justify-center items-center w-2/3 mx-auto text-center pb-20">
+          <h1>Portfolio</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti laboriosam incidunt quia soluta minima, voluptates exercitationem ipsum debitis quidem harum aspernatur, cupiditate a consequuntur hic veniam. Mollitia natus earum provident?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti laboriosam incidunt quia soluta minima, voluptates exercitationem ipsum debitis quidem harum aspernatur, cupiditate a consequuntur hic veniam. Mollitia natus earum provident?</p>
+        </div>
+
+        <div className="flex flex-wrap justify-center items-center ">
+        <div className="p-3">
+
+        <Image 
+          src={image}
+          alt="image"
+          width='350'
+          height='350'
+          />
+          </div>
+        <div className="p-3">
+
+        <Image 
+          src={image}
+          alt="image"
+          width='350'
+          height='350'
+          />
+          </div>
+        <div className="p-3">
+
+        <Image 
+          src={image}
+          alt="image"
+          width='350'
+          height='350'
+          />
+          </div>
+        <div className="p-3">
+
+        <Image 
+          src={image}
+          alt="image"
+          width='350'
+          height='350'
+          />
+          </div>
+        <div className="p-3">
+
+        <Image 
+          src={image}
+          alt="image"
+          width='350'
+          height='350'
+          />
+          </div>
+        <div className="p-3">
+
+        <Image 
+          src={image}
+          alt="image"
+          width='350'
+          height='350'
+          />
+          </div>
+        <div className="p-3">
+
+          </div>
+        
+          </div>
+      </div>
+      <div>
+        <div className="flex flex-col justify-center items-center w-2/3 mx-auto text-center pb-20">
+          <h1>Portfolio</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti laboriosam incidunt quia soluta minima, voluptates exercitationem ipsum debitis quidem harum aspernatur, cupiditate a consequuntur hic veniam. Mollitia natus earum provident?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti laboriosam incidunt quia soluta minima, voluptates exercitationem ipsum debitis quidem harum aspernatur, cupiditate a consequuntur hic veniam. Mollitia natus earum provident?</p>
+        </div>
+
+        <div className="flex flex-wrap justify-center items-center ">
+        <div className="p-3">
+
+        <Image 
+          src={image}
+          alt="image"
+          width='350'
+          height='350'
+          />
+          </div>
+        <div className="p-3">
+
+        <Image 
+          src={image}
+          alt="image"
+          width='350'
+          height='350'
+          />
+          </div>
+        <div className="p-3">
+
+        <Image 
+          src={image}
+          alt="image"
+          width='350'
+          height='350'
+          />
+          </div>
+        <div className="p-3">
+
+        <Image 
+          src={image}
+          alt="image"
+          width='350'
+          height='350'
+          />
+          </div>
+        <div className="p-3">
+
+        <Image 
+          src={image}
+          alt="image"
+          width='350'
+          height='350'
+          />
+          </div>
+        <div className="p-3">
+
+        <Image 
+          src={image}
+          alt="image"
+          width='350'
+          height='350'
+          />
+          </div>
+        <div className="p-3">
+
+          </div>
+        
+          </div>
+      </div>
+      <div>
+        <div className="flex flex-col justify-center items-center w-2/3 mx-auto text-center pb-20">
+          <h1>Portfolio</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti laboriosam incidunt quia soluta minima, voluptates exercitationem ipsum debitis quidem harum aspernatur, cupiditate a consequuntur hic veniam. Mollitia natus earum provident?</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti laboriosam incidunt quia soluta minima, voluptates exercitationem ipsum debitis quidem harum aspernatur, cupiditate a consequuntur hic veniam. Mollitia natus earum provident?</p>
+        </div>
+
+        <div className="flex flex-wrap justify-center items-center ">
+        <div className="p-3">
+
+        <Image 
+          src={image}
+          alt="image"
+          width='350'
+          height='350'
+          />
+          </div>
+        <div className="p-3">
+
+        <Image 
+          src={image}
+          alt="image"
+          width='350'
+          height='350'
+          />
+          </div>
+        <div className="p-3">
+
+        <Image 
+          src={image}
+          alt="image"
+          width='350'
+          height='350'
+          />
+          </div>
+        <div className="p-3">
+
+        <Image 
+          src={image}
+          alt="image"
+          width='350'
+          height='350'
+          />
+          </div>
+        <div className="p-3">
+
+        <Image 
+          src={image}
+          alt="image"
+          width='350'
+          height='350'
+          />
+          </div>
+        <div className="p-3">
+
+        <Image 
+          src={image}
+          alt="image"
+          width='350'
+          height='350'
+          />
+          </div>
+        <div className="p-3">
+
+          </div>
+        
+          </div>
       </div>
     </div>
   )
