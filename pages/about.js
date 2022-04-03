@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const about = () => {
   return (
-    <div className="bg-gradient-to-tr from-[#F1E1A6] to-[#C3E5AE]">
+    <div className="bg-gradient-to-r from-[#9D9D9D] to-[#b7d0f8]">
         <section className="relative">
           <div>
             <Image
@@ -20,9 +20,9 @@ export const about = () => {
             </article>
           </div>
         </section>
-        <section className="py-5">
-          <div className="w-4/5 pb-3 bg-gradient-to-tr from-black to-gray-500 mx-auto rounded-xl hover:scale-105 transition-all ease-in-out sm:w-3/4 md:flex md:p-0">
-            <div className="px-5 pt-5 pb-1 sm:px-8 sm:pt-8 md:w-1/3 md:p-0 md:my-auto">
+        <section className="py-6 md:py-12 lg:py-14 xl:py-20">
+          <div className="w-4/5 pb-3 bg-slate-800 mx-auto rounded-xl hover:scale-105 transition-all ease-in-out sm:w-4/5 md:flex md:p-0">
+            <div className="md:w-2/5 md:my-auto md:px-2 md:pt-2 lg:p-5">
               <Image
               height="1080"
               width="1080"
@@ -30,12 +30,12 @@ export const about = () => {
               alt="Principal architects"
               />
             </div>
-            <div className="px-5 md:w-2/3 md:p-0 md:my-auto">
-              <h2 className="font-semibold text-center text-white sm:text-xl">Sneha Pradhan and Kartikey Verma</h2>
-              <h3 className="font-semibold text-white text-center mb-2 text-sm sm:text-base">Principal Architects and Founder</h3>
-              <p className="text-center text-white text-xs pb-3 sm:text-sm">
+            <div className="px-3 md:w-3/5 md:p-3 lg:px-8 lg:my-auto">
+              <p className="text-center text-white pb-3 lg:text-left lg:text-lg">
               To establish a new milestone in the world of architecture by an exemplary usage of the given resources to emphasis that design is not always bought on the cost of nature....thus lancet was established in 2014 by two architects Ar. Kartikey Verma & Ar. Sneha Pradhan... Currently, a team of 18 people is there comprising of architects, interior designers, engineers, visualizers etc
               </p>
+              <p className="text-center text-sm text-sky-500 font-medium lg:text-base">Sneha Pradhan and Kartikey Verma</p>
+              <p className="text-center text-slate-400 text-sm lg:text-base">Principal Architects and Founder</p>
             </div>
           </div>
         </section>
