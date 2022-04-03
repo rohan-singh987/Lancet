@@ -9,7 +9,7 @@ export default function Home() {
         <title>Lancet Architects</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <main>
+      <main className='bg-gradient-to-tr from-[#AD8B73] to-[#E3CAA5]'>
         <section className='relative'>
           <div>
             <Image
@@ -19,7 +19,7 @@ export default function Home() {
               alt="Landing page display image"
             />
           </div>
-          <div className='absolute left-12 bottom-5 py-2 h-2/5 w-1/2 rounded-lg bg-[#BA6757] opacity-95 sm:left-20 sm:h-1/3 sm:w-2/5 md:bottom-10 md:left-24 lg:hover:border-4 lg:hover:border-[#9581f002] lg:hover:scale-105 transition-all ease-in-out lg:bottom-14 lg:left-32 xl:left-40 xl:bottom-20 xl:h-1/4'>
+          <div className='absolute left-12 bottom-5 py-2 h-2/5 w-1/2 rounded-lg bg-[#a5744a] opacity-95 sm:left-20 sm:h-1/3 sm:w-2/5 md:bottom-10 md:left-24 lg:hover:border-4 lg:hover:border-[#9581f002] lg:hover:scale-105 transition-all ease-in-out lg:bottom-14 lg:left-32 xl:left-40 xl:bottom-28 xl:h-1/4'>
             <h1 className='uppercase px-4 text-gray-800 font-semibold sm:text-2xl sm:mb-1 md:text-3xl md:mb-1 lg:text-5xl lg:my-2 xl:px-8 xl:my-0 xl:py-4'>
               Lancet Architects
             </h1>
@@ -28,8 +28,8 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <section className='bg-gradient-to-r from-[#9D9D9D] to-[#b7d0f8] py-5 md:py-12'>
-          <div className='bg-gradient-to-r from-[#92A9BD] to-[#D3DEDC] rounded-lg w-3/4 mx-auto py-5 md:flex lg:hover:scale-105 transition-all ease-in-out lg:rounded-2xl lg:py-0'>
+        <section className=' py-5 md:py-12'>
+          <div className='bg-gradient-to-r from-[#876445] to-[#F4DFBA] rounded-lg w-3/4 mx-auto py-5 md:flex lg:hover:scale-105 transition-all ease-in-out lg:rounded-2xl lg:py-0'>
             <div className='md:w-3/5 md:my-auto lg:w-7/12'>
               <h2 className='text-center uppercase font-semibold mb-3 sm:text-xl sm:font-bold md:text-left md:px-10 lg:text-2xl xl:text-3xl'>Thriving creativity</h2>
               <p className='text-center text-sm px-3 sm:px-10 md:text-left lg:text-base lg:pr-14 xl:text-lg'>We understand the gravity that artistry implants! Lancet Architects focuses on flourishing creativity to its fullest. Our shades, patterns, and fashion are the finest palettes you can acquire at the wittiest price!</p>
@@ -44,8 +44,8 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className=' bg-gradient-to-r from-[#b7d0f8] to-[#9D9D9D] py-5 md:py-12'>
-          <div className='bg-gradient-to-r from-[#D3DEDC] to-[#92A9BD] rounded-lg w-3/4 mx-auto py-5 md:flex md:flex-row-reverse lg:hover:scale-105 transition-all ease-in-out lg:rounded-2xl lg:py-0'>
+        <section className='  py-5 md:py-12'>
+          <div className='bg-gradient-to-r from-[#876445] to-[#F4DFBA] rounded-lg w-3/4 mx-auto py-5 md:flex md:flex-row-reverse lg:hover:scale-105 transition-all ease-in-out lg:rounded-2xl lg:py-0'>
             <div className='md:w-3/5 md:my-auto lg:w-7/12'>
               <h2 className='text-center text-black uppercase font-semibold mb-3 sm:text-xl sm:font-bold md:text-right md:px-10 lg:text-2xl xl:text-3xl'>Crafting Dreams</h2>
               <p className='text-center text-black text-sm px-3 sm:px-10 md:text-right lg:text-base lg:pl-14 xl:text-lg'>You are unique, so are your dreams! They deserve to solidify! We know you endeavor to shape your vision. Lancet does sterling designing to convert your picture into reality! Let us carve your imagination into the perfect existence.</p>
@@ -60,18 +60,18 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className='bg-gradient-to-r from-[#97999c] to-[#b7d0f8] py-3'>
+        <section className=' py-3'>
           <section className='p-3'>
             <h1 className='text-center text-xl font-bold md:text-2xl uppercase lg:text-3xl xl:text-4xl'>Why Us?</h1>
             <article>
-              <p className='p-4 text-center text-sm sm:px-10 md:px-20 lg:px-32 lg:text-base xl:px-48'>
+              <p className='p-4 text-center text-sm sm:px-10 md:px-20 lg:px-32 lg:text-base xl:px-48 xl:text-lg'>
               Because we promise to lead your dreams with passion!
               </p>
             </article>
           </section>
           <section className='p-3 space-y-5 md:flex md:space-y-0 md:justify-center md:py-5 lg:py-8 lg:px-10 xl:px-20'>
             <div className='w-3/5 mx-auto sm:w-1/3 md:w-52 lg:w-56 xl:w-64'>
-              <section className='bg-[#AFB9C8] rounded-xl  p-3 shadow-lg hover:scale-105 transition-all ease-in-out '>
+              <section className='bg-[#a5744a] rounded-xl  p-3 shadow-lg hover:scale-105 transition-all ease-in-out '>
                 <div>
                   <div className='w-8 mx-auto xl:w-10'>
                     <Image
@@ -91,7 +91,7 @@ export default function Home() {
               </section>
             </div>
             <div className='w-3/5 mx-auto sm:w-1/3 md:w-52 lg:w-56 xl:w-64'>
-              <section className='bg-[#AFB9C8] rounded-xl  p-3 shadow-lg hover:scale-105 transition-all ease-in-out '>
+              <section className='bg-[#a5744a] rounded-xl  p-3 shadow-lg hover:scale-105 transition-all ease-in-out '>
                 <div>
                   <div className='w-8 mx-auto xl:w-10'>
                     <Image
@@ -111,7 +111,7 @@ export default function Home() {
               </section>
             </div>
             <div className='w-3/5 mx-auto sm:w-1/3 md:w-52 lg:w-56 xl:w-64'>
-              <section className='bg-[#AFB9C8] rounded-xl  p-3 shadow-lg hover:scale-105 transition-all ease-in-out '>
+              <section className='bg-[#a5744a] rounded-xl  p-3 shadow-lg hover:scale-105 transition-all ease-in-out '>
                 <div>
                   <div className='w-8 mx-auto xl:w-10'>
                     <Image
