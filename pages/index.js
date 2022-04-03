@@ -20,7 +20,7 @@ export default function Home() {
             />
           </div>
           <div className='absolute left-12 bottom-5 py-2 h-2/5 w-1/2 rounded-lg bg-[#a5744a] opacity-95 sm:left-20 sm:h-1/3 sm:w-2/5 md:bottom-10 md:left-24 lg:hover:border-4 lg:hover:border-[#9581f002] lg:hover:scale-105 transition-all ease-in-out lg:bottom-14 lg:left-32 xl:left-40 xl:bottom-28 xl:h-1/4'>
-            <h1 className='uppercase px-4 text-gray-800 font-semibold sm:text-2xl sm:mb-1 md:text-3xl md:mb-1 lg:text-5xl lg:my-2 xl:px-8 xl:my-0 xl:py-4'>
+            <h1 className='uppercase px-4 text-gray-800 font-semibold sm:text-2xl sm:mb-1 md:text-3xl md:mb-1 lg:text-5xl lg:my-2 xl:px-8 xl:my-0 xl:py-1'>
               Lancet Architects
             </h1>
             <p className='text-xs px-4 text-gray-700 sm:text-sm lg:text-lg lg:mb-1 xl:text-2xl xl:px-8'>

@@ -11,7 +11,7 @@ const services = () => {
           <p className="text-center align-center p-5 text-sm md:px-8 md:text-base lg:px-14 xl:px-24">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eveniet nobis sequi quod impedit quo eaque aliquam perspiciatis hic explicabo nihil non, ex sed itaque rerum in sapiente, vero aspernatur.</p>
         </div>
         <section>
-        <div className="w-3/4 rounded-xl shadow-xl backdrop-blur-sm bg-white/30 p-3 mx-auto sm:flex sm:p-5 md:p-8 md:w-3/5 lg:p-10 justify-center hover:scale-105 transition-all ease-in-out">
+        <div className="w-3/4 rounded-xl shadow-xl bg-white/30 p-3 mx-auto sm:flex sm:p-5 md:p-8 md:w-3/5 lg:p-10 justify-center hover:scale-105 transition-all ease-in-out">
           <div className="w-3/4 mx-auto border-2 border-black p-2 md:border-4 md:w-2/5 self-center">
             <Image
               src="/media/interiors_img_2.jpg"
@@ -34,7 +34,7 @@ const services = () => {
           </div>
         </div>
         </section>
-        <div className="w-3/4 rounded-xl shadow-xl backdrop-blur-sm bg-white/30 p-3 mx-auto sm:flex sm:p-5 md:p-8 md:w-3/5 lg:p-10 justify-center hover:scale-105 transition-all ease-in-out sm:flex-row-reverse">
+        <div className="w-3/4 rounded-xl shadow-xl bg-white/30 p-3 mx-auto sm:flex sm:p-5 md:p-8 md:w-3/5 lg:p-10 justify-center hover:scale-105 transition-all ease-in-out sm:flex-row-reverse">
         <div className="w-3/4 mx-auto border-2 border-black p-2 md:border-4 md:w-2/5 self-center">
             <Image
               src="/media/interiors_img_3.jpg"
@@ -57,7 +57,7 @@ const services = () => {
           </div>
        
         </div>
-        <div className="w-3/4 rounded-xl shadow-xl backdrop-blur-sm bg-white/30 p-3 mx-auto sm:flex sm:p-5 md:p-8 md:w-3/5 lg:p-10 justify-center hover:scale-105 transition-all ease-in-out">
+        <div className="w-3/4 rounded-xl shadow-xl bg-white/30 p-3 mx-auto sm:flex sm:p-5 md:p-8 md:w-3/5 lg:p-10 justify-center hover:scale-105 transition-all ease-in-out">
           <div className="w-3/4 mx-auto border-2 border-black p-2 md:border-4 md:w-2/5 self-center">
             <Image
               src="/media/interiors_img_4.jpg"
