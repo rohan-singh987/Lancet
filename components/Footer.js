@@ -19,7 +19,7 @@ const Footer = () => {
           <div className="flex justify-center text-md font-bold mt-2">
             Office
           </div>
-          <div className="mt-1">
+          <div className="mt-1 hidden sm:block">
             <p className="text-center text-md">14, Amrapali Vihar,</p>
             <p className="text-center text-md">Raibareli Road,</p>
             <p className="text-center text-md">Near Sainik Dhaba,</p>
