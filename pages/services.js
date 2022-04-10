@@ -7,7 +7,7 @@ const services = () => {
   return (
     <>
 
-      <div className=" bg-gradient-to-r from-slate-500 to-yellow-100 space-y-5 lg:space-y-10 pb-10">
+      <div className=" bg-gradient-to-r from-slate-400 to-yellow-200 space-y-5 lg:space-y-10 pb-10">
         <div>
           <p className="text-center align-center p-5 text-sm sm:text-base sm:p-8 md:pb-3 lg:px-40 lg:text-lg lg:font-semibold xl:px-52">Lancet Architects serves its amenities in multiple spheres, be it residential, commercial, or corporate- you name it, and we create it! </p>
         </div>
@@ -77,7 +77,7 @@ const services = () => {
           </div>
           <div className="sm:w-1/2 text-center flex-reverse p-3 mx-auto my-auto sm:p-5 md:p-8 lg:p-10">
             <h2 className="uppercase text-black text-lg font-semibold sm:text-lg md:text-xl md:font-bold lg:text-2xl lg:mb-3 lg:text-left">
-              Industrial
+              Institutional
             </h2>
             <p className="text-sm text-black sm:text-base lg:text-lg lg:text-left">
               The architectures and engineers of the Lancet impart the point ornamentation to industrial designing. (We realize that the crowd perceives your layouts!)

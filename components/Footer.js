@@ -16,7 +16,7 @@ const Footer = () => {
 
         {/* address */}
         <div>
-          <div className="flex justify-center text-md font-bold mt-2">
+          <div className="justify-center text-md font-bold mt-2 hidden sm:block sm:flex">
             Office
           </div>
           <div className="mt-1 hidden sm:block">
