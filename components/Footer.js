@@ -16,8 +16,8 @@ const Footer = () => {
 
         {/* address */}
         <div>
-          <div className="justify-center text-md font-bold mt-2 hidden sm:block sm:flex">
-            Office
+          <div className="justify-center text-md font-bold mt-2 hidden sm:block">
+            <p className="text-center">Office</p>
           </div>
           <div className="mt-1 hidden sm:block">
             <p className="text-center text-md">14, Amrapali Vihar,</p>
