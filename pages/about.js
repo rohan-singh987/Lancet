@@ -31,7 +31,7 @@ export const about = () => {
             <Image
               height="1080"
               width="1080"
-              src="/media/about_img.jpg"
+              src="/media/about_img.webp"
               alt="Principal architects"
             />
           </div>

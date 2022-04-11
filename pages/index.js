@@ -13,7 +13,7 @@ export default function Home() {
         <section className='relative'>
           <div>
             <Image
-              src="/media/home_img_1.jpg"
+              src="/media/home_img_1.webp"
               width="1920"
               height="900"
               alt="Landing page display image"
@@ -29,14 +29,14 @@ export default function Home() {
           </div>
         </section>
         <section className=' py-5 md:py-12'>
-          <div className='bg-gradient-to-r to-[#876445] from-[#F4DFBA] rounded-lg w-3/4 mx-auto py-5 md:flex lg:hover:scale-105 transition-all ease-in-out lg:rounded-2xl lg:py-0'>
+          <div className='bg-gradient-to-r to-[#c0a389] from-[#f0d6a9] rounded-lg w-3/4 mx-auto py-5 md:flex lg:hover:scale-105 transition-all ease-in-out lg:rounded-2xl lg:py-0'>
             <div className='md:w-3/5 md:my-auto lg:w-7/12'>
               <h2 className='text-center uppercase font-semibold mb-3 sm:text-xl sm:font-bold md:text-left md:px-10 lg:text-2xl xl:text-3xl'>Thriving creativity</h2>
               <p className='text-center text-sm px-3 sm:px-10 md:text-left lg:text-base lg:pr-14 xl:text-lg'>We understand the gravity that artistry implants! Lancet Architects focuses on flourishing creativity to its fullest. Our shades, patterns, and fashion are the finest palettes you can acquire at the wittiest price!</p>
             </div>
             <div className='p-5 mx-auto sm:w-96 md:w-2/5 lg:w-5/12'>
               <Image
-                src="/media/home_img_2.jpeg"
+                src="/media/home_img_2.webp"
                 height="415"
                 width="415"
                 alt="Company Logo"
@@ -45,14 +45,14 @@ export default function Home() {
           </div>
         </section>
         <section className='  py-5 md:py-12'>
-          <div className='bg-gradient-to-r from-[#876445] to-[#F4DFBA] rounded-lg w-3/4 mx-auto py-5 md:flex md:flex-row-reverse lg:hover:scale-105 transition-all ease-in-out lg:rounded-2xl lg:py-0'>
+          <div className='bg-gradient-to-r from-[#c0a389] to-[#f0d6a9] rounded-lg w-3/4 mx-auto py-5 md:flex md:flex-row-reverse lg:hover:scale-105 transition-all ease-in-out lg:rounded-2xl lg:py-0'>
             <div className='md:w-3/5 md:my-auto lg:w-7/12'>
               <h2 className='text-center text-black uppercase font-semibold mb-3 sm:text-xl sm:font-bold md:text-right md:px-10 lg:text-2xl xl:text-3xl'>Crafting Dreams</h2>
               <p className='text-center text-black text-sm px-3 sm:px-10 md:text-right lg:text-base lg:pl-14 xl:text-lg'>You are unique, so are your dreams! They deserve to solidify! We know you endeavor to shape your vision. Lancet does sterling designing to convert your picture into reality! Let us carve your imagination into the perfect existence.</p>
             </div>
             <div className='p-5 mx-auto sm:w-96 md:w-2/5 lg:w-5/12'>
               <Image
-                src="/media/home_img_2.jpeg"
+                src="/media/home_img_2.webp"
                 height="415"
                 width="415"
                 alt="Company Logo"
