@@ -7,7 +7,7 @@ export const about = () => {
       <section className="relative">
         <div>
           <Image
-            src="/media/home_img_1.jpg"
+            src="/media/home_img_1.webp"
             width="1920"
             height="900"
             alt="About page landing image"

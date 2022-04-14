@@ -24,18 +24,18 @@ const services = () => {
             </div>
             <div className="sm:w-1/2 text-center flex-reverse p-3 mx-auto my-auto sm:p-5 md:p-8 lg:p-10">
               <h2 className="uppercase text-black text-lg font-semibold sm:text-lg md:text-xl md:font-bold lg:text-2xl lg:mb-3 lg:text-left">
-                Residential
+                Waterproofing
               </h2>
               <p className="text-sm text-black sm:text-base lg:text-lg lg:text-left">
                 Your ideas are our priorities. (Trust Lancet with every corner of your nest to weave the most unique set of dreams into existence!)
               </p>
-              <Link href="/portfolio">
+              {/* <Link href="/portfolio">
                 <a>
                   <div className="pt-8" >
                     <button className=" p-2 border-2 border-black">View More</button>
                   </div>
                 </a>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </section>
@@ -51,18 +51,18 @@ const services = () => {
           </div>
           <div className="sm:w-1/2 text-center flex-reverse p-3 mx-auto my-auto sm:p-5 md:p-8 lg:p-10">
             <h2 className="uppercase text-black text-lg font-semibold sm:text-lg md:text-xl md:font-bold lg:text-2xl lg:mb-3 lg:text-left">
-              Commercial
+              Structure Strengthening
             </h2>
             <p className="text-sm text-black sm:text-base lg:text-lg lg:text-left">
               We understand the influence of designs on the audience. Hence, (we illustrate the most alluring craftwork to heighten your commerce!)
             </p>
-            <Link href="/portfolio">
+            {/* <Link href="/portfolio">
               <a>
                 <div className="pt-8" >
                   <button className=" p-2 border-2 border-black">View More</button>
                 </div>
               </a>
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className="w-3/4 rounded-xl shadow-xl bg-white/30 p-3 mx-auto sm:flex sm:p-5 md:p-8 md:w-3/5 justify-center hover:scale-105 transition-all ease-in-out">
@@ -77,18 +77,18 @@ const services = () => {
           </div>
           <div className="sm:w-1/2 text-center flex-reverse p-3 mx-auto my-auto sm:p-5 md:p-8 lg:p-10">
             <h2 className="uppercase text-black text-lg font-semibold sm:text-lg md:text-xl md:font-bold lg:text-2xl lg:mb-3 lg:text-left">
-              Institutional
+              Interior Planning
             </h2>
             <p className="text-sm text-black sm:text-base lg:text-lg lg:text-left">
               The architectures and engineers of the Lancet impart the point ornamentation to industrial designing. (We realize that the crowd perceives your layouts!)
             </p>
-            <Link href="/portfolio">
+            {/* <Link href="/portfolio">
               <a>
                 <div className="pt-8" >
                   <button className=" p-2 border-2 border-black">View More</button>
                 </div>
               </a>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
