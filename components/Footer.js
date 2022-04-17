@@ -4,9 +4,9 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <div className="bg-slate-200 md:flex md:justify-between p-5">
+      <div className="bg-slate-300 md:flex md:justify-between p-5">
         {/* logo */}
-        <div className="w-48 mx-auto sm:w-36 md:mx-10">
+        <div className="w-32 mx-auto sm:w-36 md:mx-10">
           <Image
             src = "/media/logo.png"
             height="100"

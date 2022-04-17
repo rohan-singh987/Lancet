@@ -15,7 +15,7 @@ const services = () => {
           <div className="w-3/4 rounded-xl shadow-xl bg-white/30 p-3 mx-auto sm:flex sm:p-5 md:p-8 md:w-3/5 justify-center hover:scale-105 transition-all ease-in-out">
             <div className="w-3/4 mx-auto border-2 border-black p-2 md:border-4 md:w-2/5 self-center">
               <Image
-                src="/media/interiors_img_2.jpg"
+                src="/media/waterproofing.webp"
                 height="1080"
                 width="1080"
                 alt="Ceiling image"
@@ -42,7 +42,7 @@ const services = () => {
         <div className="w-3/4 rounded-xl shadow-xl bg-white/30 p-3 mx-auto sm:flex sm:p-5 md:p-8 md:w-3/5 justify-center hover:scale-105 transition-all ease-in-out sm:flex-row-reverse">
           <div className="w-3/4 mx-auto border-2 border-black p-2 md:border-4 md:w-2/5 self-center">
             <Image
-              src="/media/interiors_img_3.jpg"
+              src="/media/structure_strengthening.webp"
               height="1080"
               width="1080"
               alt="Modular kitchen Image"
@@ -68,7 +68,7 @@ const services = () => {
         <div className="w-3/4 rounded-xl shadow-xl bg-white/30 p-3 mx-auto sm:flex sm:p-5 md:p-8 md:w-3/5 justify-center hover:scale-105 transition-all ease-in-out">
           <div className="w-3/4 mx-auto border-2 border-black p-2 md:border-4 md:w-2/5 self-center">
             <Image
-              src="/media/interiors_img_4.jpg"
+              src="/media/interior_planning.webp"
               height="1080"
               width="1080"
               alt="Designer Room image"
