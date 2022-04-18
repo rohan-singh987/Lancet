@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Navbar11 = () => {
     return (
-        <nav className='bg-gradient-to-r from-[#000000] via-[#414141] to-[#000000] sm:flex'>
+        <nav className='bg-gradient-to-r from-[#000000] via-[#414141] to-[#000000] px-2 sm:flex sm:px-0'>
             <div className='my-auto px-3 w-1/3 mx-auto sm:w-1/4'>
                 <Link href="/">
                     <a>
@@ -17,7 +17,7 @@ const Navbar11 = () => {
                     </a>
                 </Link>
             </div>
-            <div className='flex justify-evenly pb-1 sm:my-auto sm:pb-0 sm:w-3/4'>
+            <div className='flex justify-evenly pb-1 px-1 -my-1 sm:my-auto sm:pb-0 sm:w-3/4'>
                 <Link href="/">
                     <span className='align-middle uppercase font-semibold text-xs p-1 cursor-pointer text-white hover:bg-slate-500 transition-all ease-in-out rounded-lg sm:p-2 md:text-sm lg:text-base'>
                         Home
