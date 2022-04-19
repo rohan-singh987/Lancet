@@ -15,9 +15,9 @@ const Interiors = () => {
           />
         </div>
         <div className='absolute p-3 rounded-lg bottom-5 left-6 bg-gradient-to-r from-gray-700 to-black opacity-80 sm:p-5 sm:bottom-8 sm:left-8 md:p-8 md:bottom-10 md:left-10 lg:p-10 lg:bottom-16 lg:left-24 lg:rounded-2xl xl:p-14 xl:bottom-20 xl:left-28 hover:scale-105 transition-all ease-in-out'>
-          <h1 className='font-semibold text-white text-xl mb-1 md:text-2xl md:font-bold lg:text-3xl xl:text-4xl'> Presenting Qbic </h1>
-          <p className='text-sm text-white sm:text-base'>
-            the most alluring thread of Lancet Architects
+          <h1 className='animate-pulse font-semibold text-white text-xl mb-1 md:text-2xl md:font-bold lg:text-3xl xl:text-4xl'> Presenting Qbic </h1>
+          <p className='animate-pulse text-sm text-white sm:text-base'>
+            The most alluring thread of Lancet Architects
           </p>
         </div>
       </section>
@@ -35,7 +35,7 @@ const Interiors = () => {
               />
             </div>
             <div className='w-1/2 p-3 my-auto sm:p-5 md:p-8 lg:p-10'>
-              <h2 className='uppercase text-lg font-semibold sm:text-xl md:text-2xl md:font-bold lg:text-3xl lg:mb-3'>Ceilings</h2>
+              <h2 className='animate-pulse uppercase text-lg font-semibold sm:text-xl md:text-2xl md:font-bold lg:text-3xl lg:mb-3'>Ceilings</h2>
               <p className='text-sm sm:text-base md:text-lg lg:text-xl'>
                 We can craft your heights with passion!
               </p>
@@ -43,7 +43,7 @@ const Interiors = () => {
           </div>
           <div className='w-3/4 rounded-xl  bg-gradient-to-r from-[#ebcbb6] to-[#caa992] shadow-xl p-3 mx-auto flex sm:p-5 md:p-8 md:w-3/5 lg:p-10 justify-center hover:scale-105 transition-all ease-in-out'>
             <div className='w-1/2 p-3 my-auto sm:p-5 md:p-8 lg:p-10'>
-              <h2 className='uppercase text-lg font-semibold sm:text-xl md:text-2xl md:font-bold lg:text-3xl lg:mb-3'>Modular Kitchens</h2>
+              <h2 className='animate-pulse uppercase text-lg font-semibold sm:text-xl md:text-2xl md:font-bold lg:text-3xl lg:mb-3'>Modular Kitchens</h2>
               <p className='text-sm sm:text-base md:text-lg lg:text-xl'>
                 Giving your recipes the ultimate vision!
               </p>
@@ -67,7 +67,7 @@ const Interiors = () => {
               />
             </div>
             <div className='w-1/2 p-3 my-auto sm:p-5 md:p-8 lg:p-10'>
-              <h2 className='uppercase text-lg font-semibold sm:text-xl md:text-2xl md:font-bold lg:text-3xl lg:mb-3'>Designer Rooms</h2>
+              <h2 className='animate-pulse uppercase text-lg font-semibold sm:text-xl md:text-2xl md:font-bold lg:text-3xl lg:mb-3'>Designer Rooms</h2>
               <p className='text-sm sm:text-base md:text-lg lg:text-xl'>
                 Let us steer your dreams to reality!
               </p>

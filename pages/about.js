@@ -15,7 +15,7 @@ export const about = () => {
         </div>
         <div className="w-full absolute bottom-3 sm:bottom-5 md:bottom-8 lg:bottom-12 xl:bottom-20">
           <article className="w-5/6 mx-auto bg-black opacity-90 p-2 rounded-lg hover:scale-105 transition-all ease-in-out sm:w-3/4 sm:p-5 lg:w-3/5">
-            <h2 className="text-center uppercase text-white font-semibold mb-2 md:text-xl md:font-bold lg:text-2xl xl:text-3xl">About Us</h2>
+            <h2 className="animate-pulse text-center uppercase text-white font-semibold mb-2 md:text-xl md:font-bold lg:text-2xl xl:text-3xl">About Us</h2>
             <p className="text-center text-xs text-white sm:text-sm md:text-base">
               The company aspires to establish a new milestone in the world of architecture by drafting instances in an exceptional approach.
             </p>
@@ -40,7 +40,7 @@ export const about = () => {
               To establish a new milestone in the world of architecture by an exemplary usage of the given resources to emphasis that design is not always bought on the cost of nature....thus lancet was established in 2014 by two architects Ar. Kartikey Verma & Ar. Sneha Pradhan... Currently, a team of 18 people is there comprising of architects, interior designers, engineers, visualizers etc
             </p>
             <p className="text-center text-sm text-sky-500 font-medium lg:text-base">Sneha Pradhan and Kartikey Verma</p>
-            <p className="text-center text-slate-400 text-sm lg:text-base">Principal Architects and Founder</p>
+            <p className="animate-pulse text-center text-slate-400 text-sm lg:text-base">Principal Architects and Founder</p>
           </div>
         </div>
       </section>

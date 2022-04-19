@@ -20,10 +20,10 @@ export default function Home() {
             />
           </div>
           <div className='absolute left-12 bottom-5 py-2 h-2/5 w-1/2 rounded-lg bg-[#c49770] opacity-95 sm:left-20 sm:h-1/3 sm:w-2/5 md:bottom-10 md:left-24 lg:hover:border-4 lg:hover:border-[#9581f002] lg:hover:scale-105 transition-all ease-in-out lg:bottom-14 lg:left-32 lg:w-1/3 xl:left-40 xl:bottom-28 xl:h-1/4'>
-            <h1 className='uppercase px-4 text-gray-800 font-semibold sm:text-2xl sm:mb-1 md:text-3xl md:mb-1 lg:text-5xl lg:my-2 xl:px-8 xl:my-0 xl:py-1'>
+            <h1 className='animate-pulse uppercase px-4 text-gray-800 font-semibold sm:text-2xl sm:mb-1 md:text-3xl md:mb-1 lg:text-5xl lg:my-2 xl:px-8 xl:my-0 xl:py-1'>
               Lancet Architects
             </h1>
-            <p className='text-xs px-4 text-gray-700 sm:text-sm lg:text-lg lg:mb-1 xl:text-xl xl:px-8'>
+            <p className='animate-pulse text-xs px-4 text-gray-700 sm:text-sm lg:text-lg lg:mb-1 xl:text-xl xl:px-8'>
               The place where dreams are crafted
             </p>
           </div>
@@ -52,7 +52,7 @@ export default function Home() {
             </div>
             <div className='p-5 mx-auto sm:w-96 md:w-2/5 lg:w-5/12'>
               <Image
-                src="/media/home_img_2.webp"
+                src="/media/interior_planning.webp"
                 height="415"
                 width="415"
                 alt="Company Logo"
@@ -62,7 +62,7 @@ export default function Home() {
         </section>
         <section className= 'py-3 lg:mt-1'>
           <section className='p-3'>
-            <h1 className='text-center text-xl font-bold md:text-2xl uppercase lg:text-3xl xl:text-4xl'>Why Us?</h1>
+            <h1 className='animate-pulse text-center text-xl font-bold md:text-2xl uppercase lg:text-3xl xl:text-4xl'>Why Us?</h1>
             <article>
               <p className='p-4 text-center text-sm sm:px-10 md:px-20 lg:px-32 lg:text-base xl:px-48 xl:text-lg'>
               Because we promise to lead your dreams with passion!
@@ -73,7 +73,7 @@ export default function Home() {
             <div className='w-3/5 mx-auto sm:w-1/3 md:w-52 lg:w-56 xl:w-64'>
               <section className='bg-[#bf8d60] rounded-xl  p-3 shadow-lg hover:scale-105 transition-all ease-in-out '>
                 <div>
-                  <div className='w-8 mx-auto xl:w-10'>
+                  <div className='motion-safe:animate-bounce w-8 mx-auto xl:w-10'>
                     <Image
                       src="/media/trust.png"
                       width={40}
@@ -81,7 +81,7 @@ export default function Home() {
                       alt="Trust Icon"
                     />
                   </div>
-                  <h2 className='text-center uppercase font-semibold text-black text-lg lg:text-xl mb-3'>Ethics</h2>
+                  <h2 className='animate-pulse text-center uppercase font-semibold text-black text-lg lg:text-xl mb-3'>Ethics</h2>
                   <article>
                     <p className='text-center text-sm text-black lg:text-base'>
                     We hold the principle of faith being the building block to water the roots of a relationship. Henceforth, we, Lancet Architects, decorate our projects with the toppings of trust. To us, mutual apprehension is the key to mastering the output you yearned for.
@@ -93,7 +93,7 @@ export default function Home() {
             <div className='w-3/5 mx-auto sm:w-1/3 md:w-52 lg:w-56 xl:w-64'>
               <section className='bg-[#bf8d60] rounded-xl  p-3 shadow-lg hover:scale-105 transition-all ease-in-out '>
                 <div>
-                  <div className='w-8 mx-auto xl:w-10'>
+                  <div className='motion-safe:animate-bounce w-8 mx-auto xl:w-10'>
                     <Image
                       src="/media/experience.png"
                       width={40}
@@ -101,7 +101,7 @@ export default function Home() {
                       alt="Experience Icon"
                     />
                   </div>
-                  <h2 className='text-center uppercase font-semibold text-lg lg:text-xl mb-3'>Experience</h2>
+                  <h2 className='animate-pulse text-center uppercase font-semibold text-lg lg:text-xl mb-3'>Experience</h2>
                   <article>
                     <p className='text-center text-sm lg:text-base'>
                     Crowned with 07 years of expertise, Lancet continues to justify its excellence in crafting and designing interiors. We fathom your desires. We strive for their alluring realization. Be it composing of your dream domicile, corporate occupancy, or favorite fantasy- we ace it all!
@@ -113,7 +113,7 @@ export default function Home() {
             <div className='w-3/5 mx-auto sm:w-1/3 md:w-52 lg:w-56 xl:w-64'>
               <section className='bg-[#bf8d60] rounded-xl  p-3 shadow-lg hover:scale-105 transition-all ease-in-out '>
                 <div>
-                  <div className='w-8 mx-auto xl:w-10'>
+                  <div className='motion-safe:animate-bounce w-8 mx-auto xl:w-10'>
                     <Image
                       src="/media/perfection.png"
                       width={40}
@@ -121,7 +121,7 @@ export default function Home() {
                       alt="Perfection Icon"
                     />
                   </div>
-                  <h2 className='text-center uppercase font-semibold text-black text-lg lg:text-xl mb-3'>Exquisiteness</h2>
+                  <h2 className='animate-pulse text-center uppercase font-semibold text-black text-lg lg:text-xl mb-3'>Exquisiteness</h2>
                   <article>
                     <p className='text-center text-sm text-black lg:text-base'>
                     We, at Lancet Architects, target the utmost flawlessness to deliver the most refined results. Our elite performance in the field presents us as the top-notch pick for remodeling your dream designs into authentic interiors.
