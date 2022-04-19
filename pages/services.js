@@ -27,7 +27,8 @@ const services = () => {
                 Waterproofing
               </h2>
               <p className="text-sm text-black sm:text-base lg:text-lg lg:text-left">
-                Your ideas are our priorities. (Trust Lancet with every corner of your nest to weave the most unique set of dreams into existence!)
+                Leaking taps betray the beauty! Lancet induces premium waterproofing techniques to your designs. We offer the best solutions- reliable to your budget!
+
               </p>
               {/* <Link href="/portfolio">
                 <a>
@@ -55,7 +56,7 @@ const services = () => {
                 Structure Strengthening
               </h2>
               <p className="text-sm text-black sm:text-base lg:text-lg lg:text-left">
-                We understand the influence of designs on the audience. Hence, (we illustrate the most alluring craftwork to heighten your commerce!)
+                The architects and engineers of the Lancet impart the point ornamentation to strengthen the structure of your layouts. For us, pillars are the bearers of harmony with height!
               </p>
               {/* <Link href="/portfolio">
               <a>
@@ -83,7 +84,8 @@ const services = () => {
                 Interior Planning
               </h2>
               <p className="text-sm text-black sm:text-base lg:text-lg lg:text-left">
-                The architectures and engineers of the Lancet impart the point ornamentation to industrial designing. (We realize that the crowd perceives your layouts!)
+                We understand the influence of designs on the audience. Trust Lancet with every corner of your nest to weave the most unique set of dreams into existence!
+
               </p>
               {/* <Link href="/portfolio">
               <a>

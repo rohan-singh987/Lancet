@@ -39,7 +39,7 @@ const Portfolio = () => {
             <p className="text-sm text-black sm:text-base lg:text-lg lg:text-left">
               Your ideas are our priorities. (Trust Lancet with every corner of your nest to weave the most unique set of dreams into existence!)
             </p>
-            <Link href="/portfolio">
+            <Link href="/residential">
               <a>
                 <div className="pt-8" >
                   <button className=" p-2 border-2 border-black">View More</button>
