@@ -36,7 +36,7 @@ export default function Home() {
             </div>
             <div className='p-5 mx-auto sm:w-96 md:w-2/5 lg:w-5/12'>
               <Image
-                src="/media/home_img_2.webp"
+                src="/media/interior_planning.webp"
                 height="415"
                 width="415"
                 alt="Company Logo"
@@ -52,7 +52,7 @@ export default function Home() {
             </div>
             <div className='p-5 mx-auto sm:w-96 md:w-2/5 lg:w-5/12'>
               <Image
-                src="/media/interior_planning.webp"
+                src="/media/home_img_2.webp"
                 height="415"
                 width="415"
                 alt="Company Logo"
