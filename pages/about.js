@@ -20,7 +20,7 @@ export const about = () => {
               The company aspires to establish a new milestone in the world of architecture by drafting instances in an exceptional approach.
             </p>
             <p className="text-center text-xs text-white sm:text-sm md:text-base">
-              "Design is not to be outlined at the cost of nature. The given resources can be utilized in the most sustainable method."
+              Design is not to be outlined at the cost of nature. The given resources can be utilized in the most sustainable method.
             </p>
           </article>
         </div>
