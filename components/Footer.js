@@ -11,6 +11,7 @@ const Footer = () => {
             src = "/media/logo.png"
             height="100"
             width="200"
+            alt="Logo"
             />
         </div>
 
